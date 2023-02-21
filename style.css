@@ -1,0 +1,111 @@
+body{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+h1 {
+    margin: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile {
+    border-radius: 50%;
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+#welcome {
+    color: #FFFFFF;    
+    margin-top: 50px;
+    background: linear-gradient(#20c0c0 0%, #244a9c 100%);
+    display:table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#bio {    
+    padding: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    width: 100px;
+    height: 6px;
+    background-color: #20c0c0;
+    margin: 0 auto 30px;
+}
+
+
+nav {
+    background-color: #000000;
+   /*  color: #000000; */
+}
+
+#videos {
+    margin: 0 0 20px;
+    max-width: 100%;
+}
+
+.navbar-brand{
+    color: #20c0c0;
+}
+
+.navbar-brand:hover{
+    color: #244a9c;
+}
+
+.navbar-toggler-icon{
+    background-color: #20c0c0;
+    border-radius: 6px;
+}
+
+.nav-link{
+    color: #20c0c0;
+}
+
+.nav-link:hover{
+    color: #244a9c;
+}
+
+#contatos {  
+    display: block;
+    background-color: #000000;
+    margin: 20px 0 20px;
+}
+
+#contatos a{
+    color: #0366c2;
+    padding: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+#contatos a:hover {
+    background-color: rgb(67, 64, 68);
+    font-size: 24px;
+}

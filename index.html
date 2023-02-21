@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Berners-Lee</title>
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu Anterior -->
+    <!-- <ul id="menu">
+        <li class="link"><a href="#">Home</a></li>
+        <li class="link"><a href="#bio">Sobre Nós</a></li>
+        <li class="link"><a href="#videos">Vídeos</a></li>
+        <li class="link"><a href="#wiki">Wikipedia</a></li>
+        <li class="link"><a href="#rodape">Contato</a></li>
+    </ul> -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbarNavAltMarkup">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tim Berners-Lee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#welcome">Sobre</a></li>
+                    <a class="nav-link" href="#videos">Videos</a></li>
+                    <a class="nav-link" href="#wiki">Wikipédia</a></li>
+                    <a class="nav-link" href="#escritos">Escritos</a></li>
+                    <a class="nav-link" href="#contato">Contatos</a></li>
+                </div>
+            </div>
+        </div>    
+    </nav>
+
+    <section id="welcome">
+        <div class="parallax-inner">
+            <img src="images/tbl.jpg" class="profile" />
+            <h1>Eu sou <br><span id="name">Tim Berners-Lee</span></h1>
+            <h2> Sou o fundador da www: World Wide Web</h2>
+        </div>
+    </section>
+
+    <section id="bio">
+        <h1>Biografia</h1>
+        <div class="line"></div>
+        <p>Tim Berners-Lee é um engenheiro de software que inventou a Internet (ou a World Wide Web) em 1989 enquanto em
+			CERN, o Laboratório Europeu de Física de Partículas.
+			
+			Ele é diretor do World Wide Web Consortium que fundou e Professor no Departamento de Ciência da Computação
+			da Universidade de Oxford.
+			
+			Em 2001 tornou-se Fellow da Royal Society e em 2004 foi nomeado cavaleiro. <br /> <br /> Em 1994 Berners-Lee
+			fundou o World Wide Web Consortium (W3C) no Laboratório de Ciência da Computação (LCS) em Massachusetts
+			Instituto de Tecnologia de Boston. Era formado por empresas que queriam trabalhar juntas para criar a Web
+			padrões e também melhorar a web. Foi rapidamente acordado que a tecnologia deveria ser isenta de royalties
+			e patentes. Berners-Lee atua como diretor deste W3C desde que foi fundado.
+			
+			Em 1995, a Microsoft produziu a primeira versão do Internet Explorer e este navegador comercial criou
+			enorme crescimento em sites e usuários da web.
+			
+			A Web foi usada pela primeira vez para comércio eletrônico em 1997.</p>
+    </section>
+    <hr>
+
+    <section id="videos">
+        <h1>Vídeos</h1>
+        <div class="line"></div>
+        <br>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/J8hzJxb0rpc" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <hr>
+
+    <section id="wiki" style="width: 100%;">
+        <h1>TRABALHO</h1>
+        <div class="line"></div>
+        <iframe class="work_iframe" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" 
+        frameborder="0" style="width: 80%; margin: 10px;"></iframe>
+    </section>
+    <hr>
+
+    <section id="escritos">
+        <h1>ESCRITOS</h1>
+        <div class="line"></div>
+        <a href="https://brasil.elpais.com/brasil/2019/03/11/opinion/1552298297_783559.html" target="_blank">As três ameaças 
+			que pairam sobre a web</a>
+        <br>
+        <a href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web"
+            target="_blank">Artigo em inglês: How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
+    </section>
+    <hr>
+    
+    <section id="contato">
+        <h1>CONTATOS</h1>
+        <div class="line"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.3520829464787!2d-43.929574785106176!3d-19.95169018659159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999ed62daafd%3A0x566567081174064b!2sBYJU&#39;S%20FutureSchool!5e0!3m2!1spt-BR!2sbr!4v1634572700786!5m2!1spt-BR!2sbr" 
+        height="200" width="80%" allowfullscreen="" loading="lazy"></iframe>
+        <div>
+            <div id="contatos">
+                <!-- email -->
+                <a href="mailto:mcarmojm@gmail.com?subject=Oi">
+                    <i class="fa-regular fa-envelope"></i>
+                    E-Mail
+                </a>
+                <br>
+                <!-- instagram -->
+                <a target="_blank" href="https://myinstagramId/">
+                    <i class="fa-brands fa-instagram"></i>   
+                    myinstagramId
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
